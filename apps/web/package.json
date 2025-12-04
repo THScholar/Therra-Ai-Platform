@@ -3,10 +3,9 @@
 	"private": true,
 	"type": "module",
   "scripts": {
-    "dev": "react-router dev",
-    "build": "react-router build",
-    "start": "react-router serve",
-    "typecheck": "react-router typegen && tsc --noEmit"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
 	"dependencies": {
 		"@auth/core": "^0.37.2",
