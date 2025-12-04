@@ -2,7 +2,7 @@
   "name": "therra-web",
   "root": "apps/web",
   "version": 2,
-  "buildCommand": "cd apps/web && npm install && npm run build",
+  "buildCommand": "npm run build",
   "builds": [
     { "src": "apps/web/build/server/index.js", "use": "@vercel/node" },
     { "src": "apps/web/build/client/**", "use": "@vercel/static" }
