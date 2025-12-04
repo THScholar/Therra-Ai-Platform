@@ -1,4 +1,6 @@
 {
+  "name": "therra-web",
+  "root": "apps/web",
   "version": 2,
   "buildCommand": "cd apps/web && npm install && npm run build",
   "builds": [
@@ -10,6 +12,6 @@
     { "src": "/(.*)", "dest": "apps/web/build/server/index.js" }
   ],
   "env": {
-    "NEXT_PUBLIC_API_URL": "https://your-backend-url.com"
+    "NEXT_PUBLIC_API_URL": "https://umkm-bot-services-production.up.railway.app/api/hello"
   }
 }
