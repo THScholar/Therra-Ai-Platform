@@ -1,5 +1,15 @@
 # dependencies (bun install)
 node_modules
+apps/railway-bot
+railway
+server
+.next
+.env
+.env.local
+pnpm-lock.yaml
+dist
+.tmp
+.DS_Store
 
 # output
 out
